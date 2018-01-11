@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171216 06:29:42.253" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite source="C:\Workspace\Workspace_Archive\RobotFramework\Project1\Testsuite_Files\Testsuite4.robot" id="s1" name="Testsuite4">
+<test id="s1-t1" name="TC1">
+<kw name="Log1">
+<arguments>
+<arg>"Hello"</arg>
+</arguments>
+<msg timestamp="20171216 06:29:42.455" level="FAIL">No keyword with name 'Log1' found. Did you mean:
+    BuiltIn.Log</msg>
+<status status="FAIL" endtime="20171216 06:29:42.455" starttime="20171216 06:29:42.455"></status>
+</kw>
+<status status="FAIL" endtime="20171216 06:29:42.457" critical="yes" starttime="20171216 06:29:42.450">No keyword with name 'Log1' found. Did you mean:
+    BuiltIn.Log</status>
+</test>
+<test id="s1-t2" name="TC2">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${variable1}</arg>
+</arguments>
+<msg timestamp="20171216 06:29:42.462" level="FAIL">Variable '${variable1}' not found.</msg>
+<status status="FAIL" endtime="20171216 06:29:42.462" starttime="20171216 06:29:42.461"></status>
+</kw>
+<status status="FAIL" endtime="20171216 06:29:42.463" critical="yes" starttime="20171216 06:29:42.459">Variable '${variable1}' not found.</status>
+</test>
+<status status="FAIL" endtime="20171216 06:29:42.481" starttime="20171216 06:29:42.312"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="2" pass="0">Critical Tests</stat>
+<stat fail="2" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="2" id="s1" name="Testsuite4" pass="0">Testsuite4</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

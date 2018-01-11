@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180110 07:13:42.228" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite source="C:\Ramakrishna\Workspace\RobotFramework\Project1\Testsuite_Files\Testsuite1.html" id="s1" name="Testsuite1">
+<test id="s1-t1" name="TC1">
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${variaible10}</arg>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20180110 07:13:42.456" level="INFO">${variaible10} = 10</msg>
+<status status="PASS" endtime="20180110 07:13:42.456" starttime="20180110 07:13:42.454"></status>
+</kw>
+<status status="PASS" endtime="20180110 07:13:42.456" critical="yes" starttime="20180110 07:13:42.453"></status>
+</test>
+<test id="s1-t2" name="TC2">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${variaible10}</arg>
+</arguments>
+<msg timestamp="20180110 07:13:42.460" level="INFO">10</msg>
+<status status="PASS" endtime="20180110 07:13:42.461" starttime="20180110 07:13:42.460"></status>
+</kw>
+<status status="PASS" endtime="20180110 07:13:42.461" critical="yes" starttime="20180110 07:13:42.458"></status>
+</test>
+<status status="PASS" endtime="20180110 07:13:42.463" starttime="20180110 07:13:42.247"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Testsuite1" pass="2">Testsuite1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

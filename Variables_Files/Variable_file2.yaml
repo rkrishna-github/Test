@@ -1,0 +1,9 @@
+string1:   Hello, world!
+integer1:  42
+list1:
+  - one
+  - two
+dict1:
+  one: yksi
+  two: kaksi
+  with spaces: kolme

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171210 06:45:33.969" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite source="C:\Workspace\RobotFramework\Project1\Testsuite_Files\Testsuite1.robot" id="s1" name="Testsuite1">
+<test id="s1-t1" name="TC1">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${integer_varaiable}</arg>
+</arguments>
+<msg timestamp="20171210 06:45:34.032" level="INFO">10</msg>
+<status status="PASS" endtime="20171210 06:45:34.032" starttime="20171210 06:45:34.031"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${string_variable}</arg>
+</arguments>
+<msg timestamp="20171210 06:45:34.033" level="INFO">robotframework</msg>
+<status status="PASS" endtime="20171210 06:45:34.033" starttime="20171210 06:45:34.032"></status>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<arguments>
+<arg>@{list_variable}</arg>
+</arguments>
+<msg timestamp="20171210 06:45:34.033" level="INFO">1</msg>
+<msg timestamp="20171210 06:45:34.033" level="INFO">2</msg>
+<msg timestamp="20171210 06:45:34.033" level="INFO">3</msg>
+<msg timestamp="20171210 06:45:34.033" level="INFO">a</msg>
+<status status="PASS" endtime="20171210 06:45:34.033" starttime="20171210 06:45:34.033"></status>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<arguments>
+<arg>&amp;{dict_variable}</arg>
+</arguments>
+<msg timestamp="20171210 06:45:34.034" level="INFO">a=1</msg>
+<msg timestamp="20171210 06:45:34.034" level="INFO">b=2</msg>
+<status status="PASS" endtime="20171210 06:45:34.034" starttime="20171210 06:45:34.034"></status>
+</kw>
+<kw name="Keyword1" library="Resource_File1">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>"Hello"</arg>
+</arguments>
+<msg timestamp="20171210 06:45:34.035" level="INFO">"Hello"</msg>
+<status status="PASS" endtime="20171210 06:45:34.035" starttime="20171210 06:45:34.035"></status>
+</kw>
+<status status="PASS" endtime="20171210 06:45:34.035" starttime="20171210 06:45:34.034"></status>
+</kw>
+<status status="PASS" endtime="20171210 06:45:34.036" critical="yes" starttime="20171210 06:45:34.031"></status>
+</test>
+<status status="PASS" endtime="20171210 06:45:34.036" starttime="20171210 06:45:33.975"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Testsuite1" pass="1">Testsuite1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

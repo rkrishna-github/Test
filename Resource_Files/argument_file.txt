@@ -1,0 +1,5 @@
+-E paren1:LB 
+-E space:SP  
+-E quot:QU 
+-E comma:CO 
+-v variable1:LBQUHelloCOSPworldEXQU

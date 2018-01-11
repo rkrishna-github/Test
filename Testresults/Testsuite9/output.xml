@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180110 07:01:01.527" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite source="C:\Ramakrishna\Workspace\RobotFramework\Project1" id="s1" name="Project1">
+<suite source="C:\Ramakrishna\Workspace\RobotFramework\Project1\Testsuite_Files" id="s1-s1" name="Testsuite Files">
+<suite source="C:\Ramakrishna\Workspace\RobotFramework\Project1\Testsuite_Files\Testsuite9.robot" id="s1-s1-s1" name="Testsuite9">
+<test id="s1-s1-s1-t1" name="Count Items in Directory">
+<kw name="Count Items In Directory">
+<arguments>
+<arg>/home/rkommine</arg>
+</arguments>
+<assign>
+<var>${items1} =</var>
+</assign>
+<msg timestamp="20180110 07:01:04.823" level="FAIL">No keyword with name 'Count Items In Directory' found.</msg>
+<status status="FAIL" endtime="20180110 07:01:04.824" starttime="20180110 07:01:04.823"></status>
+</kw>
+<status status="FAIL" endtime="20180110 07:01:04.825" critical="yes" starttime="20180110 07:01:04.818">No keyword with name 'Count Items In Directory' found.</status>
+</test>
+<test id="s1-s1-s1-t2" name="Failing Example">
+<kw name="Strings Should Be Equal">
+<arguments>
+<arg>Hello</arg>
+<arg>Hello</arg>
+</arguments>
+<msg timestamp="20180110 07:01:04.830" level="FAIL">No keyword with name 'Strings Should Be Equal' found.</msg>
+<status status="FAIL" endtime="20180110 07:01:04.831" starttime="20180110 07:01:04.830"></status>
+</kw>
+<status status="FAIL" endtime="20180110 07:01:04.831" critical="yes" starttime="20180110 07:01:04.826">No keyword with name 'Strings Should Be Equal' found.</status>
+</test>
+<status status="FAIL" endtime="20180110 07:01:04.832" starttime="20180110 07:01:01.754"></status>
+</suite>
+<status status="FAIL" endtime="20180110 07:01:04.834" starttime="20180110 07:01:01.748"></status>
+</suite>
+<status status="FAIL" endtime="20180110 07:01:04.836" starttime="20180110 07:01:01.666"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="2" pass="0">Critical Tests</stat>
+<stat fail="2" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="2" id="s1" name="Project1" pass="0">Project1</stat>
+<stat fail="2" id="s1-s1" name="Testsuite Files" pass="0">Project1.Testsuite Files</stat>
+<stat fail="2" id="s1-s1-s1" name="Testsuite9" pass="0">Project1.Testsuite Files.Testsuite9</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20180110 07:01:04.817" level="ERROR">Error in file 'C:\Ramakrishna\Workspace\RobotFramework\Project1\Testsuite_Files\Testsuite9.robot': Getting keyword names from library 'Remote' failed: Calling dynamic method 'get_keyword_names' failed: Connecting remote server at http://192.168.0.7:7777 failed: [Errno 10061] No connection could be made because the target machine actively refused it</msg>
+</errors>
+</robot>
